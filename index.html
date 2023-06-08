@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotifyHigherOrLower</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-page" class="start-page">
+        <p> 
+            <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png">
+            <h1>Higher or Lower</h1>
+            <button id="start-button">Start</button>
+        </p>
+    </div>
+    <div id="maincontent" class="main">
+        <div class="display" id="displayOne">
+            <h2 id="displayNameOne"></h2>
+            <p>has</p>
+            <p id="followerdisplay"></p>
+            <p>followers on spotify</p>
+        </div>
+        <div class="display" id="displayTwo">
+            <h2 id="displayNameTwo"></h2>
+            <button class="higher" onclick="higherOrLower(1)">Higher</button>
+            <button class="lower" onclick="higherOrLower(2)">Lower</button>
+            <p class="scoredisplay" id="score"></p>
+        </div>
+    </div>
+    <div class="lose-page">
+        <p>
+            <h1 class="loseText">You Lose</h1>
+            <h2 id="score"></h2>
+            <button id="start-over">Start Over</button>
+        </p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
