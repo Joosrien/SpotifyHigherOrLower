@@ -8,7 +8,7 @@ var followersTwo = 0;
 var nextArtistName;
 var nextArtistPicture;
 // KEY AUTHORIZATION CODE GOES HERE
-myHeaders.append("Authorization", "Bearer BQCAI2XuJ1J_xgHNCFZW1MDX7gjfj0yAf7WmDSPoK2qKzv2-tNJwWwPud_IRWXJMfaQJWhzw38rfoxaETU1Lluph6nE_YkbBsEi-7Mwnx7QWNFz4qgE"); //Old Key is here place new key for it to work
+myHeaders.append("Authorization", "Bearer "); //Old Key is here place new key for it to work
 var requestOptions = {
   method: 'GET',
   headers: myHeaders,
